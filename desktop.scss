@@ -44,8 +44,16 @@ button {
 
 @media (max-width: 401px) {
 	.container {
-		padding: 30% 5%;
+		padding: 22.5% 5%;
 		flex-direction: column;
+	}
+
+	section {
+		padding: 15%;
+		line-height: 2.5rem;
+		p {
+			height: 5rem;
+		}
 	}
 
 	section:nth-child(1) {
