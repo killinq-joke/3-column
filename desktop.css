@@ -37,6 +37,10 @@ button {
 }
 
 @media (max-width: 401px) {
+  body {
+    padding: 0;
+    height: initial;
+  }
   .container {
     padding: 22.5% 5%;
     -webkit-box-orient: vertical;

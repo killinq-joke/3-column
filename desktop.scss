@@ -43,6 +43,12 @@ button {
 }
 
 @media (max-width: 401px) {
+
+	body {
+		padding: 0;
+		height: initial;
+	}
+
 	.container {
 		padding: 22.5% 5%;
 		flex-direction: column;
@@ -68,3 +74,4 @@ button {
 		border-top-right-radius: 0px;
 	}
 }
+
