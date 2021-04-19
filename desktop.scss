@@ -7,18 +7,6 @@ $Very-light-gray : hsl(0, 0%, 95%);
 
 body {
 	font-size: 1.5rem;
-	font-family: 'Lexend Deca', sans-serif;
-	background-color: $Very-light-gray;
-	color: $Very-light-gray;
-	height: 100vh;
-	display: flex;
-	flex-direction: column;
-}
-
-.container {
-	display: flex;
-	padding: 15%;
-	margin: auto;
 }
 
 section {
@@ -26,7 +14,8 @@ section {
 	line-height: 3rem;
 	p {
 		width: 87%;
-		margin-bottom: 30%;
+		height: 12rem;
+		margin-bottom: 10rem;
 	}
 }
 
@@ -42,8 +31,6 @@ section:nth-child(3) {
 
 h3 {
 	font-size: 3em;
-	font-family: 'Big Shoulders Display', cursive;
-	text-transform: uppercase;
 }
 
 button {
@@ -53,4 +40,23 @@ button {
 	border-radius: 4rem;
 	padding: 1.5rem 3rem;
 	border: 1px solid $Very-light-gray;
+}
+
+@media (max-width: 401px) {
+	.container {
+		padding: 30% 5%;
+		flex-direction: column;
+	}
+
+	section:nth-child(1) {
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0px;
+	}
+
+	section:nth-child(3) {
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		border-top-right-radius: 0px;
+	}
 }

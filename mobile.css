@@ -1,1 +1,14 @@
-/* No CSS *//*# sourceMappingURL=mobile.css.map */
+.container {
+  background-color: red;
+}
+
+section:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+section:nth-child(3) {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/*# sourceMappingURL=mobile.css.map */
